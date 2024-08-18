@@ -28,3 +28,4 @@ export function toSlug(str: string) {
 
 export function isAdmin(user: UserResource | User) {
   return user.publicMetadata?.role === "admin";
+}
